@@ -1,0 +1,23 @@
+.ResultWrapper {
+  background-color: #f5f5f5;
+  padding: 0;
+  width: 12rem;
+  z-index: 50;
+  height: 40rem;
+}
+
+.ResultHeader {
+  position: fixed;
+  background-color: #00e676;
+  width: 12rem;
+  height: 3rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.results {
+  margin-top: 3rem;
+}

@@ -1,0 +1,16 @@
+.ListHeader {
+  background-color: yellow;
+  border: 1px dashed black;
+  padding: 0 1rem;
+}
+
+.ListWrapper {
+  background-color: #f5f5f5;
+  border: dashed black 2px;
+  margin-left: 1rem;
+}
+
+.ListElements {
+  padding: 1rem;
+  overflow-y: auto;
+}

@@ -1,0 +1,144 @@
+{
+  "horses": [
+    {
+      "color": "#ef5350",
+      "name": "Patlıcan",
+      "condition": 69,
+      "id": 1,
+      "streak": 0
+    },
+    {
+      "color": "#8e24aa",
+      "name": "Snowflake",
+      "condition": 69,
+      "id": 2,
+      "streak": 0
+    },
+    {
+      "color": "#f06292",
+      "name": "Marengo",
+      "condition": 55,
+      "id": 3,
+      "streak": 0
+    },
+    {
+      "color": "#311b92",
+      "name": "Riley",
+      "condition": 70,
+      "id": 4,
+      "streak": 0
+    },
+    {
+      "color": "#8c9eff",
+      "name": "Bonzo",
+      "condition": 89,
+      "id": 5,
+      "streak": 0
+    },
+    {
+      "color": "#212121 ",
+      "name": "Leonardo",
+      "condition": 49,
+      "id": 6,
+      "streak": 0
+    },
+    {
+      "color": "#80d8ff",
+      "name": "Siroco",
+      "condition": 90,
+      "id": 7,
+      "streak": 0
+    },
+    {
+      "color": "#006064",
+      "name": "Quickfeet",
+      "condition": 91,
+      "id": 8,
+      "streak": 0
+    },
+    {
+      "color": "#2196f3",
+      "name": "Areo",
+      "condition": 67,
+      "id": 9,
+      "streak": 0
+    },
+    {
+      "color": "#00897b",
+      "name": "Mysterious",
+      "condition": 80,
+      "id": 10,
+      "streak": 0
+    },
+    {
+      "color": "#69f0ae",
+      "name": "Eclipse",
+      "condition": 64,
+      "id": 11,
+      "streak": 0
+    },
+    {
+      "color": "#8bc34a",
+      "name": "Ganette",
+      "condition": 74,
+      "id": 12,
+      "streak": 0
+    },
+    {
+      "color": "#eeff41",
+      "name": "Enchanted",
+      "condition": 60,
+      "id": 13,
+      "streak": 0
+    },
+    {
+      "color": "#ffeb3b",
+      "name": "Midnightheart",
+      "condition": 43,
+      "id": 14,
+      "streak": 0
+    },
+    {
+      "color": "#ff6f00",
+      "name": "Song of Songs",
+      "condition": 71,
+      "id": 15,
+      "streak": 0
+    },
+    {
+      "color": "#ffd180",
+      "name": "Nadia",
+      "condition": 65,
+      "id": 16,
+      "streak": 0
+    },
+    {
+      "color": "#ff5722",
+      "name": "Saxson",
+      "condition": 100,
+      "id": 17,
+      "streak": 0
+    },
+    {
+      "color": "#6200ea",
+      "name": "Gumby",
+      "condition": 62,
+      "id": 18,
+      "streak": 0
+    },
+    {
+      "color": "#00bfa5",
+      "name": "Buster",
+      "condition": 75,
+      "id": 19,
+      "streak": 0
+    },
+    {
+      "color": "#795548",
+      "name": "Sherbet",
+      "condition": 87,
+      "id": 20,
+      "streak": 0
+    }
+  ]
+}

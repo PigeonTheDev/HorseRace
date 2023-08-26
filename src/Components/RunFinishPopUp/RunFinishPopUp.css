@@ -1,0 +1,31 @@
+.RunFinishPopUpWrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(219, 219, 219, 0.7);
+  z-index: 500;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.RunFinishPopUp {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #dbdbdb;
+  flex-direction: column;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  font-size: 1rem;
+  top: 50%;
+  left: 50%;
+  width: 40%;
+  height: 10rem;
+  transform: translate(-50%, -50%);
+}
+
+.closeButton {
+  margin-top: 1rem !important;
+}

@@ -1,0 +1,84 @@
+.horseBettingBG {
+  top: 0;
+  width: 100vw;
+  left: 0;
+  height: 100vh;
+  background-color: rgba(219, 219, 219, 0.8);
+  position: absolute;
+}
+
+.horseBettingWrapper {
+  position: absolute;
+  padding: 0.5rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #dbdbdb;
+  flex-direction: column;
+  border-radius: 0.25rem;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 30rem;
+  transform: translate(-50%, -50%);
+}
+
+.horseWrapper {
+  border: 2px dashed black;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.horseInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  left: 2rem;
+}
+
+.horseBettingHeader {
+  color: green;
+  margin-bottom: 1rem;
+}
+
+.scrollableArea {
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.amountInput {
+  border: solid 2px green;
+  border-radius: 0.25rem;
+}
+
+.betTitle {
+  margin-right: 0.5rem;
+}
+
+.ratio {
+  color: green;
+  margin-left: 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.streak {
+  display: flex;
+  align-items: center;
+}
+
+.streakImg {
+  width: 1rem;
+  margin-left: 0.25rem;
+}
+
+.favorite {
+  width: 2rem;
+  margin-left: 0.25rem;
+}

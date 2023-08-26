@@ -1,0 +1,84 @@
+.PopUpBg {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(219, 219, 219, 0.8);
+  z-index: 10;
+  position: absolute;
+}
+
+.PopUpWrapper {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #dbdbdb;
+  flex-direction: column;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  font-size: 1rem;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 28rem;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes flipImg {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(-1, 1);
+  }
+}
+@keyframes reverseFlipImg {
+  from {
+    transform: scale(-1, 1);
+  }
+  to {
+    transform: scale(1, 1);
+  }
+}
+
+img {
+  width: 4rem;
+  animation-duration: 2s;
+}
+
+.userInput {
+  width: 15rem;
+  margin: 0.5rem;
+  border: 2px dashed #dbdbdb;
+}
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.userDropdown {
+  margin: 0.5rem;
+  border: 2px dashed #dbdbdb;
+}
+
+.dropdownOption {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+button {
+  margin-top: 1rem;
+  width: 15rem;
+  text-align: center;
+  background-color: #00e676;
+  color: white;
+  height: 2.5rem;
+  border-radius: 0.125rem;
+  border: 2px dashed #dbdbdb;
+}
+
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+}
