@@ -1,22 +1,21 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import { useMemo, useState } from "react";
-import Horses from "./Horse.json";
+import React, { useState } from "react";
+import Horses from "../../Horse.json";
 import "./AppWrapper.css";
+import { User } from "../../Models/User";
+import { AuthPopUp } from "../AuthPopUp/AuthPopUp";
+import { HorseList } from "../HorseList/HorseList";
+import { RaceWrapper } from "../RaceWrapper/RaceWrapper";
+import { Run } from "../../Models/Run";
 
-import { AuthPopUp } from "./Components/AuthPopUp/AuthPopUp";
-import { User } from "./Models/User";
-import { HorseList } from "./Components/HorseList/HorseList";
-import { RaceWrapper } from "./Components/RaceWrapper/RaceWrapper";
-import { useRace } from "./Hooks/useRace";
+interface IAppWrapper {
+  race: Run[];
+}
 
-export const AppWrapper = () => {
+export const AppWrapper: React.FC<IAppWrapper> = ({ race }) => {
   const [raceStopped, setRaceStopped] = useState<boolean>(false);
   const [raceClicked, setRaceClicked] = useState<boolean>(false);
   const [user, setUser] = useState<User | undefined>(undefined);
-
-  const race = useMemo(() => {
-    return useRace();
-  }, []);
 
   return (
     <>
