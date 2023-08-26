@@ -63,11 +63,9 @@ export const HorseRatioPopUp: React.FC<IHorseRatioPopUp> = ({ horses, balance, s
                 onClick={() => {
                   if (amount > balance) {
                     alert("Oh No! Doesn't look like you have enough money for that");
-                  }
-                  if (amount === 0) {
+                  } else if (amount === 0) {
                     alert("Please choose an amount to bet");
-                  }
-                  if (amount <= balance) {
+                  } else if (amount <= balance) {
                     ratioOpen(false);
                     selectedHorse(horse, amount);
                   }
