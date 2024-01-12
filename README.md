@@ -1,46 +1,29 @@
-# Getting Started with Create React App
+A Senior React Developer Interview task with some added features such as Log-in and betting system.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Here is the original task;
 
-## Available Scripts
+Horse Racing Trial Day 
+ 
+In this project, we expect you to create a horse racing game. 
+ 
+●You can use "create react app" tool 
+●The horse list must be randomly from 1-20 
+●Clicking the "generate button" needs to create a race schedule consisting of 6 
+runs. 
+●Clicking the "start" button, the races have to run one by one 
+●Race results should be written in the "results field" in order. 
+●We expect the "horses" to move 
+●Show us your own code styling just like in a large scale project 
+ 
+Rules:  
+●There should be "20 horses" for the race 
+●Each horse must be a "different" color 
+●The condition of each horse should be between "1-100". 
+●"6 rounds" of running must be done in "1 race"
+●Each round must run "10 horses" randomly selected out of 20 horses. 
+●6 rounds respectively "(1200m, 1400m, 1600m, 1800 m, 2000m, 2200m)" should 
+be done in these lengths. 
+● "Redux" store usage expected. 
+●"Component design" expected. 
+●You can use any color or styling.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
